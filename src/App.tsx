@@ -12,7 +12,13 @@ function App() {
         <div className="App">
             <Card>
                 <Img src={ImgTitle} alt="img"/>
-
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
                 <InfoCard>
                     {/* eslint-disable-next-line react/jsx-no-undef */}
                     <Title> Headline</Title>
