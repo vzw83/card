@@ -16,7 +16,7 @@ function App() {
                 <InfoCard>
                     {/* eslint-disable-next-line react/jsx-no-undef */}
                     <Title> Headline</Title>
-                    <Title>Приветик</Title>
+                    {/*<Title>Приветик</Title>*/}
                     <Text>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Text>
                     <WrapperBtn>
                         <Button btnType={"primary"} active>See more</Button>
