@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import ImgTitle from './components/images/myImg.jpg'
 import {Button} from "./components/buttons/Button";
 
+import {Title} from "./components/Title/Title";
+import React from "react";
+
 
 function App() {
     return (
@@ -11,6 +14,7 @@ function App() {
                 <Img src={ImgTitle} alt="img"/>
 
                 <InfoCard>
+                    {/* eslint-disable-next-line react/jsx-no-undef */}
                     <Title> Headline</Title>
                     <Title>Приветик</Title>
                     <Text>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Text>
@@ -45,14 +49,14 @@ const Img = styled.img`
     display: block;
 `
 
-const Title = styled.h1`
-    color: #000;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-`;
+// const Title = styled.h1`
+//     color: #000;
+//     font-family: Inter;
+//     font-size: 16px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+// `;
 
 const InfoCard = styled.div`
     min-width: 260px;
