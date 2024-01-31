@@ -1,6 +1,6 @@
 import './App.css';
 import styled from 'styled-components';
-import ImgFon from './components/images/myImg.jpg'
+import ImgTitle from './components/images/myImg.jpg'
 import {Button} from "./components/buttons/Button";
 
 
@@ -8,15 +8,15 @@ function App() {
     return (
         <div className="App">
             <Card>
-                <Img src={ImgFon} alt="img"/>
+                <Img src={ImgTitle} alt="img"/>
 
                 <InfoCard>
-                    <Title>Headline</Title>
+                    <Title> Headline</Title>
+                    <Title>Приветик</Title>
                     <Text>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Text>
                     <WrapperBtn>
                         <Button btnType={"primary"} active>See more</Button>
                         <Button btnType={"outlined"} >Save</Button>
-                        {/*<Button color={""}>Save</Button>*/}
                     </WrapperBtn>
                 </InfoCard>
 
